@@ -9,6 +9,7 @@
 6. What insights can be extracted to support player feedback analysis and community-facing decision-makin
 
 ##Respositary Tree
+
 infinity-nikki-reddit-feedback-analysis/
 │
 ├── 01_data_collection/
