@@ -9,7 +9,7 @@
 6. What insights can be extracted to support player feedback analysis and community-facing decision-makin
 
 ##Respositary Tree
-'''
+```text
 infinity-nikki-reddit-feedback-analysis/
 │
 ├── 01_data_collection/
@@ -72,4 +72,4 @@ infinity-nikki-reddit-feedback-analysis/
 │
 ├── requirements.txt
 └── README.md
-'''
+```
