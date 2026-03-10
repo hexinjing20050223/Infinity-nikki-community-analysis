@@ -10,67 +10,53 @@
 
 ## Respositary Tree
 ```text
-infinity-nikki-reddit-feedback-analysis/
+infinity-nikki-reddit-analysis
 │
-├── 01_data_collection/
-│   ├── 01_extract_post_data.ipynb
-│   └── 02_collect_comments.ipynb
+├── analysis
+│   │
+│   ├── 01_post_analysis
+│   │   ├── post_sentiment_analysis.ipynb
+│   │   ├── post_topic_analysis.ipynb
+│   │   └── top_posts_analysis.ipynb
+│   │
+│   ├── 02_comments_analysis
+│   │   ├── comment_sentiment_analysis.ipynb
+│   │   ├── keyword_frequency.ipynb
+│   │   └── comment_length_analysis.ipynb
+│   │
+│   └── 03_engagement_analysis
+│        ├──01_engagement_level_analysis.ipynb
+│        ├──02_engagement_drivers_anaysis.ipynb
+│        ├──03-engagement_trends_analysis.ipynb
 │
-├── 02_data_processing/
-│   ├── 01_clean_posts.ipynb
-│   └── 02_clean_comments.ipynb
-│
-├── 03_post_analysis/
-│   ├── 01_post_topic_classification.ipynb
-│   ├── 02_post_sentiment_analysis.ipynb
-│   ├── 03_post_karma_analysis.ipynb
-│   └── 04_post_engagement_overview.ipynb
-│
-├── 04_comment_analysis/
-│   ├── 01_sentiment_analysis.ipynb
-│   ├── 02_topic_analysis.ipynb
-│   ├── 03_feedback_type_analysis.ipynb
-│   └── 04_keyword_frequency.ipynb
-│
-├── 05_engagement_analysis/
-│   └── 01_post_comment_relationship.ipynb
-│
-├── 06_visualization/
-│   └── 01_generate_charts.ipynb
-│
-├── 07_dashboard/
-│   └── infinity_nikki_feedback_dashboard.pbix
-│
-├── data/
-│   ├── raw/
+├── data
+│   │
+│   ├── raw_data
 │   │   ├── reddit_posts_raw.csv
 │   │   └── reddit_comments_raw.csv
 │   │
-│   └── processed/
-│       ├── reddit_posts_clean.csv
-│       ├── reddit_comments_clean.csv
-│       ├── posts_with_sentiment.csv
-│       ├── comments_with_sentiment.csv
-│       └── comments_with_topics.csv
+│   └── processed_data
+│       └── merged_reddit_data.csv
 │
-├── output/
-│   ├── charts/
-│   │   ├── post_topic_distribution.png
-│   │   ├── post_sentiment_distribution.png
-│   │   ├── comment_sentiment_distribution.png
-│   │   ├── topic_frequency.png
-│   │   ├── feedback_type_distribution.png
-│   │   └── engagement_analysis.png
+
+       
+│
+├── output
 │   │
-│   └── tables/
-│       ├── post_topic_summary.csv
-│       ├── post_sentiment_summary.csv
-│       ├── comment_sentiment_summary.csv
-│       ├── topic_summary.csv
-│       ├── feedback_type_summary.csv
-│       └── engagement_summary.csv
+│   ├── figures
+│   │   ├── engagement_trend.png
+│   │   ├── sentiment_distribution.png
+│   │   └── topic_frequency.png
+│   │
+│   └── tables
+│       ├── engagement_metrics.csv
+│       └── sentiment_summary.csv
 │
-├── requirements.txt
+│
+├── powerbi
+│   └── reddit_dashboard.pbix
+│
+│
 └── README.md
 ```
 # Order to Run
