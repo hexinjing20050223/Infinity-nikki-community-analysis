@@ -11,36 +11,31 @@
 ## Respositary Tree
 ```text
 infinity-nikki-reddit-analysis
-│
-├── analysis
-│   │
-│   ├── 01_post_analysis
-│   │   ├── post_sentiment_analysis.ipynb
-│   │   ├── post_topic_analysis.ipynb
-│   │   └── top_posts_analysis.ipynb
-│   │
-│   ├── 02_comments_analysis
-│   │   ├── comment_sentiment_analysis.ipynb
-│   │   ├── keyword_frequency.ipynb
-│   │   └── comment_length_analysis.ipynb
-│   │
-│   └── 03_engagement_analysis
-│        ├──01_engagement_level_analysis.ipynb
-│        ├──02_engagement_drivers_anaysis.ipynb
-│        ├──03-engagement_trends_analysis.ipynb
+├──01_post_analysis
+│  ├── post_sentiment_analysis.ipynb
+│  ├── post_topic_analysis.ipynb
+│  └── top_posts_analysis.ipynb
+
+├── 02_comments_analysis
+│   ├── comment_sentiment_analysis.ipynb
+│   ├── keyword_frequency.ipynb
+│   └──  comment_length_analysis.ipynb
+│  
+├── 03_engagement_analysis
+│    ├──01_engagement_level_analysis.ipynb
+│    ├──02_engagement_drivers_anaysis.ipynb
+│    └──03-engagement_trends_analysis.ipynb
 │
 ├── data
-│   │
 │   ├── raw_data
 │   │   ├── reddit_posts_raw.csv
 │   │   └── reddit_comments_raw.csv
-│   │
 │   └── processed_data
 │       └── merged_reddit_data.csv
 │
 
-       
-│
+
+
 ├── output
 │   │
 │   ├── figures
