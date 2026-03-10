@@ -8,7 +8,7 @@
 5. post x comment分析，哪个类型的post引发最多评论
 6. What insights can be extracted to support player feedback analysis and community-facing decision-makin
 
-##Respositary Tree
+## Respositary Tree
 ```text
 infinity-nikki-reddit-feedback-analysis/
 │
@@ -73,3 +73,8 @@ infinity-nikki-reddit-feedback-analysis/
 ├── requirements.txt
 └── README.md
 ```
+# Order to Run
+# Project Structure
+
+# Data Source
+Reddit API
