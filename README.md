@@ -11,11 +11,12 @@
 ## Respositary Tree
 ```text
 infinity-nikki-reddit-analysis
+│
 ├──01_post_analysis
 │  ├── post_sentiment_analysis.ipynb
 │  ├── post_topic_analysis.ipynb
 │  └── top_posts_analysis.ipynb
-
+│
 ├── 02_comments_analysis
 │   ├── comment_sentiment_analysis.ipynb
 │   ├── keyword_frequency.ipynb
